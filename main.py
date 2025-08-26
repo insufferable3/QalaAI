@@ -10,7 +10,7 @@ from torchvision import models, transforms
 import torch.nn as nn
 
 # ===== 1. SETTINGS =====
-MODEL_PATH = "backend/art_style_model.pth"
+MODEL_PATH = "art_style_model.pth"
 CLASSES = ['Baroque', 'Cubism', 'Expressionism', 'Impressionism', 'Pop Art', 'Surrealism']
 device = torch.device("cpu")
 
